@@ -118,3 +118,23 @@ function palabraMayuscula(){
         alert("la palabra no comienza con A mayuscula")
     }
 }
+
+function hacerDescuento(){
+    let producto = parseInt(prompt("Ingrese precio"));
+    if (producto >= 10000){
+        alert("Obtienes un descuento")
+    } else if (producto <= 9999){
+        alert("No obtienes un descuento")
+    }
+};
+
+function permisoManejar(){
+    let respuesta = "si";
+    let edad = parseInt(prompt("Ingresar edad"))
+    let licencia = prompt("¿tienes licencia?")
+    if (edad >= 18 && licencia == respuesta){
+        alert("Si, puedes manejar")
+    } else {
+        alert("No, no puedes manejar")
+    }
+}
